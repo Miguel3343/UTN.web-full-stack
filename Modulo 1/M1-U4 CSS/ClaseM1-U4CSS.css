@@ -1,0 +1,37 @@
+/* Esto es un comentario es CSS */
+h2{
+    color: red;
+    font-size: 30px;
+
+}
+
+h1{
+    color: green;
+    background-color: yellow; /* Color Fondo de h1 */
+    text-align: center; /* Alinear */
+    text-transform: uppercase; /* Mayuscula */
+}
+
+p{
+    color: blue;
+    line-height: 25px;  /* Espacio entre linea y linea */
+}
+
+.destacados{   /* con esto llamo a lo que en HTML seleccione con un "span"*/
+    color: orange;
+    font-weight: bold; /* peso - en este caso negrita */
+    font-style: italic;
+    font-family: arial; /*Familia Tipografica, */
+
+}
+
+#caja {
+    background-color: yellow;
+    width: 350px; /* Ancho de caja en Pixeles */
+    height: 350px; /* Altura de caja */
+    border: 3px solid black; /* todos los bordes */
+    border-right: 3px dashed red; /* Borde derecho punteado */
+    padding: 20px; /* Espacio o Posicion del contenido dentro de la caja, puede ser centado o mas para un lado */
+    box-sizing: border-box;  /* Con esto hacemos que se respete el Ancho y el Alto de la caja sin que se sumen los PX de los Bordes, ya que esto suman, si tenemos 350 y 350 con loa bordes de 3px sumarian 353 y 353 */
+    margin-left: 100px;
+}

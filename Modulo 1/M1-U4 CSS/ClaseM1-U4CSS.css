@@ -34,4 +34,6 @@ p{
     padding: 20px; /* Espacio o Posicion del contenido dentro de la caja, puede ser centado o mas para un lado */
     box-sizing: border-box;  /* Con esto hacemos que se respete el Ancho y el Alto de la caja sin que se sumen los PX de los Bordes, ya que esto suman, si tenemos 350 y 350 con loa bordes de 3px sumarian 353 y 353 */
     margin-left: 100px;
+    /* con margin podemos mover o centrar la caja, ya sea a la derecha o arriba con PX o Porcentajes */
+    /* desde el navegador en desde la Opcion inspector podemos ver y modificar los PX o Porcentajes  */
 }

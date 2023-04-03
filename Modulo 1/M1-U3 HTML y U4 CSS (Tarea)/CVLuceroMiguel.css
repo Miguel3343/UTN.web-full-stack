@@ -1,0 +1,52 @@
+h1{
+    text-align: center;
+}
+
+#contenedor{
+    background: black;
+    display: flex;
+    justify-content: center;
+
+}
+
+#informacionpersonal{
+
+    background: rgba(28, 126, 19, 0.908);
+    width: 400px;
+    height: 1000px;
+    border-radius: 15px;
+    line-height: 30px;
+}
+
+img{
+    border-radius: 60%;
+}
+
+#imagen{
+    display: flex;
+    justify-content: center;
+    
+}
+
+#perfilprofecional{
+    background: rgb(180, 158, 190);
+    width: 700px;
+    height: 1000px;
+    border-radius: 15px;
+    line-height: 30px;
+}
+#margen{
+    margin-top: 50px;
+}
+
+#margen2{
+    margin-top: 200px;
+    margin-left: 50px;
+}
+
+.destacados{
+
+    color: black;
+    font-weight: bold;
+    font-style: italic;
+}
